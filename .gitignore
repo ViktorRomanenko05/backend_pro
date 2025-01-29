@@ -1,0 +1,13 @@
+*.class
+*.ini
+*.life
+*.ctxt
+*.bluej
+target
+out
+build
+*.iml
+.idea
+.gradle
+*.log
+*.gz
