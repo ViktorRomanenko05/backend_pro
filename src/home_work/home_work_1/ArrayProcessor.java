@@ -18,7 +18,7 @@ public class ArrayProcessor {
     //Для лучшей видимости разницы во времени выполнения расширим массив до 200M элементов
     //Метод для инициализации и заполнения массива
     private int[] arrayFilling() {
-        int numbers[] = new int[200000000];
+        int[] numbers = new int[20000000];
         numbers = Arrays.stream(numbers).map(element -> (int) (Math.random() * 10000001)).toArray();
         LOGGER.info("Array is filled");
         return numbers;
